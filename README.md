@@ -16,4 +16,4 @@ sequelize
 
 ### Collection
 
-[text](src/thunder-collection_clinica_consultas.json)
+[Click para consultar o arquivo Collection](src/thunder-collection_clinica_consultas.json)
