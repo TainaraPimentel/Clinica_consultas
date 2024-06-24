@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "clinica_consultas",
+    "collectionId": "69b98745-3e58-4810-b9ca-6dace83212ce",
+    "dateExported": "2024-06-24T01:41:45.301Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "32d9fddd-7017-4f15-91d8-b43c5fa828f0",
+            "colId": "69b98745-3e58-4810-b9ca-6dace83212ce",
+            "containerId": "",
+            "name": "deletar consulta",
+            "url": "http://localhost:5000/deletar/consulta",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-06-24T01:40:07.756Z",
+            "modified": "2024-06-24T01:40:07.756Z",
+            "headers": []
+        },
+        {
+            "_id": "5d93e23f-1284-4e83-a2dc-8f6346d082eb",
+            "colId": "69b98745-3e58-4810-b9ca-6dace83212ce",
+            "containerId": "",
+            "name": "lista consulta",
+            "url": "http://localhost:6000/lista/consulta",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-24T01:40:17.920Z",
+            "modified": "2024-06-24T01:40:17.920Z",
+            "headers": []
+        },
+        {
+            "_id": "0a815b9f-f944-412c-8a7d-7400dc4d0f4d",
+            "colId": "69b98745-3e58-4810-b9ca-6dace83212ce",
+            "containerId": "",
+            "name": "cadastrar consulta",
+            "url": "http://localhost:6000/cadastrar/consulta",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-06-24T01:40:24.915Z",
+            "modified": "2024-06-24T01:40:24.915Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"paciente_id\": \"2\",\n  \"especialidade\": \"otorrino\",\n  \"agenda\": \"220395\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7f6bf0c0-2e86-45c6-b296-e1e3823e21cc",
+            "colId": "69b98745-3e58-4810-b9ca-6dace83212ce",
+            "containerId": "",
+            "name": "lista paciente",
+            "url": "http://localhost:6000/lista/paciente",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-06-24T01:40:43.681Z",
+            "modified": "2024-06-24T01:40:43.681Z",
+            "headers": []
+        },
+        {
+            "_id": "2407a57f-12f9-4eab-b78e-84ae33bfa927",
+            "colId": "69b98745-3e58-4810-b9ca-6dace83212ce",
+            "containerId": "",
+            "name": "cadastro paciente",
+            "url": "http://localhost:6000/cadastrar/Paciente",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-06-24T01:40:53.103Z",
+            "modified": "2024-06-24T01:40:53.103Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"thiago\",\n  \"telefone\": \"555\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "ZFgPIRzdIaiqIPywoprWBm34rz-v6DQCC1c9PtxZVAIip1OLVKSdl1Y3nK33tY49sNpRre0CaU-OczLjJAKXeQ"
+}
